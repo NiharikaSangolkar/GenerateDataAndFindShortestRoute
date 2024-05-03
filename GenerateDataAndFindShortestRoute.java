@@ -144,3 +144,26 @@ public class GenerateDataAndFindShortestRoute {
         }
     }
 }
+/* output:
+Enter email:
+abc@gmail.com
+Nodes: [QC, RR, SO, BC, AC, OS]
+Edges: 
+{"from": "QC", "to": "RR", "cost": 9.38609727183181}
+{"from": "QC", "to": "SO", "cost": 7.299136707544138}
+{"from": "QC", "to": "OS", "cost": 3.116459285515192}
+{"from": "RR", "to": "QC", "cost": 0.9065131451942665}
+{"from": "RR", "to": "SO", "cost": 3.2549902191804847}
+{"from": "RR", "to": "AC", "cost": 6.057666031258084}
+{"from": "RR", "to": "OS", "cost": 6.215113168529497}
+{"from": "SO", "to": "BC", "cost": 7.377915766001042}
+{"from": "SO", "to": "AC", "cost": 2.453479837418051}
+{"from": "SO", "to": "OS", "cost": 8.632693150527508}
+{"from": "BC", "to": "QC", "cost": 9.211122732652822}
+{"from": "AC", "to": "QC", "cost": 1.5252394360477695}
+{"from": "AC", "to": "OS", "cost": 6.680459808142761}
+{"from": "OS", "to": "SO", "cost": 7.123783520758073}
+{"from": "OS", "to": "AC", "cost": 6.144024325277905}
+Shortest Route from C to F: [F]
+
+*/
